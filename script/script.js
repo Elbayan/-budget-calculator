@@ -1,5 +1,5 @@
 
-const generateId = () => 'Id${Math.round(Math.random() * 1e8).toString(16)}'
+const generateId = () => `Id${Math.round(Math.random() * 1e8).toString(16)}`
 
 const totalBalance = document.querySelector(".total__balance"),
     totalMoneyIncome = document.querySelector(".total__money-income"),
